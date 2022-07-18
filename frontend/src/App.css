@@ -1,0 +1,19 @@
+/* css */
+#header{
+    font-family: 'Roboto','Courier New', Courier, monospace;
+    /* color: rgb(66, 66, 223); */
+    color:rgb(52, 196, 196);/*rgb(66, 66, 223)*/
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin: 4px;
+    display: block;
+    width: 100%;
+}
+.cont{
+    padding: 50px;
+    box-shadow: 15px 4px 20px #fffcfc6f;
+    background-color: rgba(236, 225, 241, 0.24);
+    z-index: -1;
+    height: 100vh;
+}

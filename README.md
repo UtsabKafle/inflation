@@ -17,4 +17,3 @@ What do we need in a simple finance tracker app?
         - tracks company name, date, amount
         - summarize the profits, company and losses.
 
-actuall

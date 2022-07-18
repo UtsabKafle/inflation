@@ -1,0 +1,16 @@
+#init-amt{
+    height: 40px;
+    margin: 10px 100px;
+    border:none;
+    border-radius: 7px;
+    outline: none;
+    box-shadow: 10px 6px 9px 0px #d4c1c1;
+}
+
+#init-amt-btn{
+    height: 30px;
+    width: 120px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 5px 110px;
+}
