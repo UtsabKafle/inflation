@@ -61,7 +61,7 @@
     border-radius: 70px;
     height: 60px;
     width:60px;
-    margin: 20px;
+    margin: 50px 20px;
     text-align: center;
     justify-content: center;
     line-height: 60px;
@@ -69,7 +69,6 @@
     color:white;
     font-family: 'Courier New', Courier, monospace;
 }
-
 
 .red{
     border: 1px solid red;
@@ -79,9 +78,55 @@
     width:60px;
     text-align: center;
     justify-content: center;
-    margin: 20px;
+    margin: 50px 20px;
     line-height: 60px;
     background-color: rgb(247, 53, 53);
     color:white;
     font-family: 'Courier New', Courier, monospace;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.line{
+    height:45px;
+    width:1px;
+    padding: 2px;
+    /* border: 1px solid red; */
+    background-color:rgb(76 139 119 / 28%);
+    margin: -50px 47px;
+    display: inline;
+    position: absolute;
+
+}
+
+.green .cir-details, .red .cir-details{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    display: none;
+    margin: -55px 65px;
+    background-color: inherit;
+    word-wrap: normal;
+    padding: 5px;
+    border-radius: 5px;
+}
+.green:hover .cir-details,.red:hover .cir-details{
+    display: block;
+}
+
+.cir-details .cir-date{
+    font-size: 10px;
+    font-weight: 700;
+    display: inline;
+    left:0px;
+    position: inherit;
+    margin: -20px 7px;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.cir-details .cir-text{
+    /* display: inline; */
+    font-size: 15px;
+    font-weight: 800;
 }
