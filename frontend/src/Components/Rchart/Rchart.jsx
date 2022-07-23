@@ -20,15 +20,19 @@ const Rchart = () => {
             'amount':'500',
             'date':'2022-03-22',
             'text':'oh crap this is good'},
+            {
+              'id':3,
+              'color':'red',
+              'amount':'80',
+              'date':'2022-04-02',
+              'text':'went to picnic with friends.'
+            }
      
     ];
 
   return (
     <div>
         {data.map((item)=><Rcircle data={item}/>)}
-        
-
-
     </div>
   )
 }

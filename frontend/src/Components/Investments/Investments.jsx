@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Chart from 'chart.js/auto'
 
 
@@ -42,15 +42,20 @@ function show_chart(){
 
 
 const Investments = () => {
- 
-
+  // const [count,setCount] = useState(0);
+  // useEffect(()=>{
+  // show_chart();
+  // });
+  
   return (
     <div className="cont" >
       <div id="header">Investments</div>
-      <canvas id="myChart" width="400" height="400"></canvas>
-      <div className="waiter"  onLoad={show_chart()}></div>
+      {/* <canvas id="myChart" width="400" height="400"></canvas> */}
+      {/* <div className="waiter"  onLoad={show_chart()}></div> */}
+      {/* <button type="button" onClick={setCount(count+1)}>Refresh</button> */}
     </div>
   )
 }
 
 export default Investments
+
