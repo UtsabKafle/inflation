@@ -54,17 +54,23 @@ const Investments = () => {
     <div className="inv-start">2022-02-1</div>
 
       <div className="inv-heading">
-        Stocks fucking stonks
+        Stocks
       </div>
-      <div className="present-val">Rs.1500</div>
+      <div className="inv-present-val">Rs.1500</div>
+      <div className="button-holder">
+        <button type='button'>View</button>
+      </div>
     </div>
+
     <div className="inv-box">
     <div className="inv-start">2022-01-19</div>
 
       <div className="inv-heading">
       Savings
       </div>
-      <div className="present-val">Rs.200,00</div>
+      <div className="inv-present-val">Rs.200,00</div>
+      <button type='button'>View</button>
+
     </div>
 
 

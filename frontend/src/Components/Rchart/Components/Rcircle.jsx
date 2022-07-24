@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Rcircle = (prop) => {
-  if(prop.data.id != 0) {
+  if(prop.data.id !== 0) {
     return (
       <div className="cir-cont">
         <div className="line"></div>
