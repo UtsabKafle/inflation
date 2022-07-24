@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Chart from 'chart.js/auto'
-
+import './Styles/Investment.css'
 
 function show_chart(){
   const ctx = document.getElementById('myChart').getContext('2d');
@@ -42,7 +42,6 @@ function show_chart(){
 
 
 const Investments = () => {
-  // const [count,setCount] = useState(0);
   // useEffect(()=>{
   // show_chart();
   // });
@@ -50,9 +49,26 @@ const Investments = () => {
   return (
     <div className="cont" >
       <div id="header">Investments</div>
-      {/* <canvas id="myChart" width="400" height="400"></canvas> */}
-      {/* <div className="waiter"  onLoad={show_chart()}></div> */}
-      {/* <button type="button" onClick={setCount(count+1)}>Refresh</button> */}
+    <div className="inv">
+    <div className="inv-box">
+    <div className="inv-start">2022-02-1</div>
+
+      <div className="inv-heading">
+        Stocks fucking stonks
+      </div>
+      <div className="present-val">Rs.1500</div>
+    </div>
+    <div className="inv-box">
+    <div className="inv-start">2022-01-19</div>
+
+      <div className="inv-heading">
+      Savings
+      </div>
+      <div className="present-val">Rs.200,00</div>
+    </div>
+
+
+    </div>
     </div>
   )
 }
