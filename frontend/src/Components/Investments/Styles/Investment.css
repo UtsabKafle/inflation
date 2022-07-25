@@ -7,13 +7,13 @@
 .inv-box{
     border-radius: 6px;
     /* border: 1px solid rebeccapurple; */
-    display: inline-block;
+    /* display: inline-block; */
     margin: 10px;
     padding: 5px;
-    width: 300px;
-    height: 300px;
-    box-shadow: -17px -14px 0px 0px rgb(237 237 252);
-    background-color: rgb(251 248 252);
+    /* width: 300px; */
+    height: 60px;
+    /* box-shadow: -17px -14px 0px 0px rgb(237 237 252); */
+    background-color: rgb(185, 201, 46);
     /* text-align: center; */
 }
 
@@ -24,20 +24,40 @@
     display: inline-block;
     /* border: 1px solid red; */
     color:rgb(51, 116, 201);
-    margin: 5px 105px;
+    /* margin: 20px 28px; */
+    /* position: absolute; */
 }
 
-.inv-start{
-    font-size: 13px;
-    font-weight: 900;
-    font-family: 'Courier New', Courier, monospace;
-    display: inline;
-    color:rgb(110, 124, 143);
-    margin: 5px 10px;
-}
 .inv-present-val{
-    margin: 15px 69px;
-    font-size: 30px;
+    /* margin: 20px 169px; */
+    font-size: 20px;
     font-weight: 700;
     color:rgb(23, 106, 214);
+    float: right;
+}
+.inv-items{
+    margin:23px 164px;
+    /* border: 1px solid white; */
+}
+
+.add-inv{
+    display: inline;
+    float: right;
+    margin: -25px 70px;
+}
+
+.add-inv-btn{
+    padding: 5px;
+    width:130px;
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: transparent;
+    height: 35px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.add-inv-btn:hover{
+    background-color: rgb(84, 181, 148);
+    color:white;
 }
