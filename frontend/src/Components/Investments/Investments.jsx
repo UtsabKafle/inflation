@@ -60,6 +60,9 @@ const Investments = () => {
         Stocks
       </div>
       <div className="inv-present-val">Rs.1500</div>
+      <div className="inv-btn-holder">
+      <button type='button' className='inv-btn'>View</button>
+      </div>
       </div>
     </div>
 
@@ -70,7 +73,9 @@ const Investments = () => {
       Savings
       </div>
       <div className="inv-present-val">Rs.200,00</div>
-      {/* <button type='button'>View</button> */}
+      <div className="inv-btn-holder">
+      <button type='button' className='inv-btn'>View</button>
+      </div>
       </div>
     </div>
 

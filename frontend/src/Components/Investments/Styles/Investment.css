@@ -8,7 +8,7 @@
     border-radius: 6px;
     /* border: 1px solid rebeccapurple; */
     /* display: inline-block; */
-    margin: 10px;
+    margin: 15px;
     padding: 5px;
     /* width: 300px; */
     height: 60px;
@@ -60,4 +60,25 @@
 .add-inv-btn:hover{
     background-color: rgb(84, 181, 148);
     color:white;
+}
+.inv-btn{
+    width:120px;
+    height: 25px;
+    background-color: #fbf8fc;
+    /* border:1px solid grey; */
+    border: none;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: rgb(185, 201, 46);
+    cursor: pointer;
+}
+.inv-btn:hover{
+    background-color: rgb(185, 201, 46);
+    color:#fbf8fc;
+}
+.inv-btn-holder{
+    /* display: inline; */
+    margin: 0px 122px;
+    /* background-color:white; */
 }
